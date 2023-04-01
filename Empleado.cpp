@@ -24,7 +24,7 @@ class Empleado : Persona2 {
 	void setApellidos(string ape){apellidos = ape;}
 	void setDireccion(string dir){direccion = dir;}
 	void setTelefono(int tel){telefono = tel;}
-	void setFecha_Nacimiento(int fn){fecha_nacimiento = fn;}
+	void setFecha_nacimiento(int fn){fecha_nacimiento = fn;}
 	void setCodigo_empleado(int ce){cod_empleado = ce;}	
 	
 	//get (mostrar)	

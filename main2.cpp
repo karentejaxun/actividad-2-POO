@@ -1,7 +1,8 @@
 #include "Empleado.cpp"
 #include <iostream>
 using namespace std;
-main (){
+main(){
+	 
 	string puesto,nombres,apellidos,direccion;
 	int telefono;
 	int fecha_nacimiento;
@@ -22,7 +23,7 @@ main (){
 	cout<<"Ingrese el codigo del empleado: ";
 	cin>>cod_empleado;
 	
-	Empleado obj = Empleado(puesto,nombres,apellidos,direccion,telefono,fecha_nacimiento,cod_empledo);
+	Empleado obj = Empleado(string nom,string ape,string dir,int tel,int fn,string puesto,int ce);
 	obj.mostrar();
 	
 	//no me compilo inge :(
